@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos - Blog de Esportes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="contatos">>
+    <header>
+        <h1>Blog de Esportes</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="futebol.html">Futebol</a></li>
+                <li><a href="basquete.html">Basquete</a></li>
+                <li><a href="tenis.html">Tênis</a></li>
+                <li><a href="contatos.html" class="active">Contatos</a></li> 
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Contatos</h2>
+        <section class="centralize"> 
+            <h3>Entre em Contato</h3>
+            <p>
+                Você pode entrar em contato conosco através dos seguintes meios:
+            </p>
+
+            <section class="centralize">
+                <h3>Entre em Contato</h3>
+                <p>Email: <a href="mailto:contato@blogdeesportes.com">contato@blogdeesportes.com</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/seuperfil" target="_blank">linkedin.com/in/seuperfil</a></p>
+                <p>Telefone: (00) 12345-6789</p>
+                <p>Instagram: <a href="https://www.instagram.com/seuperfil" target="_blank">@seuperfil</a></p>
+     
+        </section>
+        <section class="centralize"> 
+            <h3>Deixe sua Avaliação</h3>
+            <form action="#" method="post" id="contact-form">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <label for="rating">Avaliação:</label>
+                <select id="rating" name="rating" required>
+                    <option value="5">Excelente</option>
+                    <option value="4">Muito Bom</option>
+                    <option value="3">Bom</option>
+                    <option value="2">Regular</option>
+                    <option value="1">Ruim</option>
+                </select>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Blog de Esportes. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
